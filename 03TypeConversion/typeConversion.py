@@ -10,10 +10,15 @@ print(x , type(x))
 print(y , type(y))
 print(z , type(z))
 
+
+
 print("After Type Conversion")
 a = float(x)
 b = int(y)
 c = complex(x) # We can convert 'int' to 'complex' but not 'complex' to 'int'
+d = str(x)
 print(a , type(a))
 print(b , type(b))
 print(c , type(c))
+print(d , type(d))
+
